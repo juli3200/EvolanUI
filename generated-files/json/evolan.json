@@ -1,0 +1,118 @@
+{
+  "buttons": [
+    {
+      "name": "menuBtn",
+      "icon": "Qss/icons/Icons/feather/align-justify.png"
+    },
+    {
+      "name": "minimizeBtn",
+      "icon": "Qss/icons/Icons/feather/minus.png"
+    },
+    {
+      "name": "restoreBtn",
+      "icon": "Qss/icons/Icons/font_awesome/regular/window-maximize.png"
+    },
+    {
+      "name": "closeBtn",
+      "icon": "Qss/icons/Icons/feather/x.png"
+    },
+    {
+      "name": "simulateBtn",
+      "icon": "Qss/icons/Icons/font_awesome/regular/circle-play.png"
+    },
+    {
+      "name": "renderBtn",
+      "icon": "Qss/icons/Icons/font_awesome/solid/gears.png"
+    },
+    {
+      "name": "showBtn",
+      "icon": "Qss/icons/Icons/font_awesome/regular/eye.png"
+    },
+    {
+      "name": "openBtn",
+      "icon": "Qss/icons/Icons/font_awesome/regular/folder-open.png"
+    },
+    {
+      "name": "button_simulate_code",
+      "icon": "Qss/icons/Icons/feather/code.png"
+    },
+    {
+      "name": "button_simulate_advanced",
+      "icon": "Qss/icons/Icons/font_awesome/solid/sliders.png"
+    },
+    {
+      "name": "button_simulate_simulate",
+      "icon": "Qss/icons/Icons/feather/play-circle.png"
+    },
+    {
+      "name": "openMediaBtn",
+      "icon": "Qss/icons/Icons/font_awesome/regular/file-video.png"
+    },
+    {
+      "name": "playBtn",
+      "icon": "Qss/icons/Icons/feather/play-circle.png"
+    },
+    {
+      "name": "prevMediaBtn",
+      "icon": "Qss/icons/Icons/feather/skip-back.png"
+    },
+    {
+      "name": "stopMediaBtn",
+      "icon": "Qss/icons/Icons/feather/stop-circle.png"
+    },
+    {
+      "name": "nextMediaBtn",
+      "icon": "Qss/icons/Icons/feather/skip-forward.png"
+    },
+    {
+      "name": "volumeBtn",
+      "icon": "Qss/icons/Icons/feather/volume-1.png"
+    }
+  ],
+  "labels": [
+    {
+      "name": "logo_label",
+      "pixmap": "images/logo.png"
+    },
+    {
+      "name": "label_page1_simulate",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "label_simulate_new",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "label_3",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "dimensionLabel",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "numberOfBotsLabel",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "generationLifetimeLabel",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "label_page1_simulate_2",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "label_page1_simulate_3",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "playedMediaDuration",
+      "pixmap": "default_pixmap_url"
+    },
+    {
+      "name": "totalMediaDuration",
+      "pixmap": "default_pixmap_url"
+    }
+  ]
+}

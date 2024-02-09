@@ -1,0 +1,135 @@
+{
+    "ShowLogs": true,
+    "LiveCompileQss": true,
+    "QMainWindow": [
+        {
+            "tittle": "Evolan",
+            "icon":":/font_awesome_brands/Icons/font_awesome/brands/windows.png",
+			"frameless": true,
+			"transluscentBg": true,
+            "sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+                    "minimize":"minimizeBtn",
+					"close": "closeBtn",
+                    "restore":[
+						{	
+							"buttonName": "restoreBtn",
+							"maximizedIcon": ":/font_awesome_regular/Icons/font_awesome/regular/window-restore.png",
+							"normalIcon": ":/font_awesome_regular/Icons/font_awesome/regular/window-maximize.png"
+						}
+					],
+                    "moveWindow": "header",
+                    "tittleBar": "header"
+				}
+                
+			]
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#004144",
+                            "Text-color": "#CCCCCC",
+                            "Accent-color": "#FFFFFF",
+                            "Icons-color": "#CCCCCC",
+                            "Theme-name": "Evolan default",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Evolan",
+                "ApplicationName": "Evolan",
+                "OrginizationDormain": "Evolan.org"
+            }
+        }
+    ],
+    "QCustomQStackedWidget":[
+        {
+			"name":"stackedWidget",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"simulateBtn": "simulatePage",
+							"renderBtn": "renderPage",
+							"showBtn": "showPage"
+						}
+					]
+				}
+			],
+            "transitionAnimation":[
+				{
+					"slide":[
+						{
+							"active":true,
+							"duration": 700,
+							"direction": "vertical",
+							"easingCurve": "Linear"
+						}
+					]
+				}
+			]
+		}
+	],
+    "QCustomSlideMenu": [
+        {
+            "name": "sideMenu",
+            "defaultSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "parent"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "parent"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuBtn",
+                    "icons": [
+                        {
+                            "whenMenuIsCollapsed": ":/feather/Icons/feather/align-justify.png",
+                            "whenMenuIsExpanded": ":/feather/Icons/feather/arrow-left.png"
+                        }
+                    ]
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 700,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+	    }
+    ],
+    "QPushButtonGroup": [
+        {
+            "Buttons": [
+                "simulateBtn",
+                "renderBtn",
+                "showBtn"
+            ],
+            "Style": [
+                {
+                    "Active": "background-color: #00282a;",
+                    "NotActive": "background-color: transparent;"
+                }
+            ]
+        }
+    ]
+}

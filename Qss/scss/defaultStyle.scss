@@ -1,0 +1,41 @@
+
+//===================================================//
+// FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+// THESE STYLES WILL OVERIDE THE THEME STYLES
+//====================================================//
+#centralwidget{
+    background-color: $COLOR_BACKGROUND_1;
+}
+#centralwidget > *{
+    background-color: $COLOR_BACKGROUND_3;
+}
+#footer > *, #header > *, #stackedWidget, #stackedWidget > *, #frame_15 *{
+    background-color: transparent;
+    border: none;
+}
+#sideMenu *{
+    text-align: left;
+}
+QPushButton, QLineEdit{
+    padding: 8px 10px;
+}
+#frame_2 QPushButton{
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+    background-color: transparent;
+    border-bottom: 1px solid #00282a;
+}
+#videoFilesWidget QFrame{
+    background-color: #00282a;
+    border-radius: 10px;
+}
+#videoFilesWidget QFrame *{
+    text-align: center;
+}
+#videoPlayerWidget{
+    background-color: #00282a;
+}
+//===================================================//
+// END //
+//====================================================//
+            
