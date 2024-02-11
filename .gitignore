@@ -1,3 +1,7 @@
 /venv
 /build
 /dist
+/logs
+/Qss/icons
+.pyc
+src/__pycache__
