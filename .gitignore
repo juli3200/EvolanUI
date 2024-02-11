@@ -5,3 +5,6 @@
 /Qss/icons
 .pyc
 src/__pycache__
+app/build
+app/dist
+Evolan.spec
