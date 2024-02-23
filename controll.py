@@ -6,13 +6,14 @@ def setup_venv():
     print("Setting up virtual environment...")
     cmd = [
         "python -m venv venv",
+        "Set-ExecutionPolicy Unrestricted -Scope Process",
         "venv/scripts/activate",
-        "pip install PySide6",
-        "pip install QT-PyQt-PySide-Custom-Widgets",
-        "pip install setuptools",
-        "pip install kids.cache",
-        "pip install python-magic-bin==0.4.14",
-        "pip install pyinstaller"
+        "venv/scripts/pip install PySide6",
+        "venv/scripts/pip install QT-PyQt-PySide-Custom-Widgets",
+        "venv/scripts/pip install setuptools",
+        "venv/scripts/pip install kids.cache",
+        "venv/scripts/pip install python-magic-bin==0.4.14",
+        "venv/scripts/pip install pyinstaller"
     ]
     for c in cmd:
         subprocess.run(c, shell=True)
